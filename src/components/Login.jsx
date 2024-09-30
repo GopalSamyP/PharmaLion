@@ -1,4 +1,5 @@
 import React from "react";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faApple } from "@fortawesome/free-brands-svg-icons";
@@ -10,8 +11,10 @@ const Login = () => {
             <div className="grid grid-cols-2 auto-rows-[600px] gap-4 my-10 p-10">
                 
                     <div className="bg-purple-500 border-2 rounded-xl items-center justify-center p-2 flex flex-col">
+                    <div className="lottie-bg">
                     <iframe src="https://lottie.host/embed/3aaf36bd-4996-430a-93ee-b71ce977c35f/Rn6YTGUOYg.json" />
-                        <h1 className="mt-5 mb-5 mr-5 ml-5 text-lg text-black-500">Log in to your admin dashboard</h1>
+                    </div>
+                         <h1 className="mt-5 mb-5 mr-5 ml-5 text-lg text-black-500">Log in to your admin dashboard</h1>
                         <h2 className=" text-2xl text-black-500">with your credentials</h2>
                          <h1 className="mt-5 mb-5 mr-5 ml-5 text-xs text-black-500 font-bold">The Evolution of YashAdmin</h1>
                         <p className="mt-5 mb-5 mr-5 ml-5 font-bold text-2xl items-justify "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt</p>
